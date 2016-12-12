@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_fa0370c8eb77061ca495a39ad43ede2c9d9b5fa7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_0173074f07d8551eea824f11cf5299fc2316da38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5a5d290eb8cfd544f1c7431840ba67412dd0e09c">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2f5de28dcb1d8d09d758a1f6bb14f84523ba342b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_56c5fccecec1352c4e042721464457e2ab9737ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_fac3dcddaea30e4743161ef24d5f857a15a0bacd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_e33428491e78fa4f823b3a13974f2d730190e17a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_83e3ae717ae84c2d63cd687dff264aaa49e6fdec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_3b2ac39d509a45979ce9fb9919aadac95642463b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_a1de21bcdc530d4ed6add2e8bed04c05118eca85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="55ada74a37c2465a3a18462cc3105789c6a43f14">
+        <dex dex="/Users/honeywell/private_code/ConvinentSnackbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_578c08f6743f3ca48af50350b49c3ea392291c0e/classes.dex" />
+    </item>
+
+</items>
