@@ -142,6 +142,14 @@ public class ConvinentSnackbar {
     private static final int MSG_SHOW = 0;
     private static final int MSG_DISMISS = 1;
 
+    /**
+     * default is swipe from left to right
+     */
+    private int mDirection = SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END;
+
+    /**
+     * default is shown in bottom of the screen
+     */
     private int mGravity = Gravity.NO_GRAVITY;
 
     static {
@@ -354,6 +362,11 @@ public class ConvinentSnackbar {
     }
 
 
+    /**
+     * set the gravity of the Snackbar
+     * @param gravity
+     * @return
+     */
     public ConvinentSnackbar setConvinentbarGravity(int gravity) {
         if (mView != null) {
             final ViewGroup.LayoutParams lp = mView.getLayoutParams();
@@ -364,6 +377,24 @@ public class ConvinentSnackbar {
         }
         mGravity = gravity;
         return this;
+    }
+
+    /** @hide */
+    @IntDef({SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END, SwipeDismissBehavior.SWIPE_DIRECTION_END_TO_START,
+            SwipeDismissBehavior.SWIPE_DIRECTION_ANY})
+    @Retention(RetentionPolicy.SOURCE)
+    private @interface SwipeDirection {}
+
+
+    /**
+     * set the swipe dissimss direction
+     * @param direction
+     * @return
+     */
+    public ConvinentSnackbar setSwipeDissmissDirection(@SwipeDirection int direction){
+        mDirection = direction;
+        return this;
+
     }
 
     /**
@@ -448,7 +479,7 @@ public class ConvinentSnackbar {
                 final ConvinentSnackbar.Behavior behavior = new ConvinentSnackbar.Behavior();
                 behavior.setStartAlphaSwipeDistance(0.1f);
                 behavior.setEndAlphaSwipeDistance(0.6f);
-                behavior.setSwipeDirection(SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END);
+                behavior.setSwipeDirection(mDirection);
                 behavior.setListener(new SwipeDismissBehavior.OnDismissListener() {
                     @Override
                     public void onDismiss(View view) {

@@ -2,6 +2,7 @@ package com.stephen.convinentsnackbar;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.design.widget.SwipeDismissBehavior;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 ConvinentSnackbar.make(view, "This is top Convinent Snackbar", ConvinentSnackbar.LENGTH_SHORT)
-                       .setActionTextColor(getResources().getColor(R.color.colorPrimaryDark)).setConvinentbarGravity(Gravity.TOP).show();
+                       .setActionTextColor(getResources().getColor(R.color.colorPrimaryDark)).setConvinentbarGravity(Gravity.TOP)
+                        .setSwipeDissmissDirection(SwipeDismissBehavior.SWIPE_DIRECTION_ANY).show();
             }
         });
 
